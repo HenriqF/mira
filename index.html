@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="s.css">
+</head>
+<body>
+    <div id="cont">
+        <label for="tamanho">Tamanho:</label>
+        <input type="range" id="tamanho" min="30" max="200" value="200">
+
+        <label for="qtd">Qtd:</label>
+        <input type="range" id="qtd" min="2" max="8" value="3">
+
+        <select name="opcoes" id="opcoes">
+            <option >Pulos</option>
+            <option >Perto</option>
+            <option >Fodase</option>
+        </select>
+
+        <button id="j">Jogar</button>
+        
+        <canvas id="canva" width="750" height="750"></canvas>
+
+        <p id="score">Escore: 0</p>
+        <p id="melhor">Melhor: 0</p>
+    </div>
+
+    <script src="porra.js"></script>
+</body>
+</html>

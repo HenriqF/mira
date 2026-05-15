@@ -1,0 +1,11 @@
+#cont{
+    display: grid;
+    justify-items: center;
+}
+
+
+canvas{
+    width: 750px;
+    height: 750px;
+    border: 1px solid #000000;
+}
